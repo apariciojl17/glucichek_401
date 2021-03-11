@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1">
+	<listeners>
+		<listener class-name="base.TestListener" />
+	</listeners>
+	<parameter name="Suite" value="TC144_Login" />
+
+	<test name="AddProfessional TC_001">
+		<classes>
+			<class name="nativeMobile.android.glucichek.v4_1_0_rc.ConfirmAndPresentation"></class>
+		</classes>
+	</test>
+</suite>
